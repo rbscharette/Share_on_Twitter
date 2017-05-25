@@ -1,22 +1,24 @@
 {
 	"background": {
       "persistent": false,
-      "scripts": [ "tweetright.js" ]
+      "scripts": [ "RobotShopSearch.js" ]
    },
    "browser_action": {
       "default_icon": "icons/32.png",
-      "default_title": "Share on Twitter"
+      "default_title": "Search on RobotShop"
    },
-   "description": "Share web pages, selected text, links and image URLs on Twitter easily from the context menu and toolbar button.",
-   "homepage_url": "http://browsernative.com/share-on-twitter-chrome-extension/",
+   "description": "Search selected text, links and image URLs on RobotShop easily from the context menu and toolbar button.",
+   "homepage_url": "http://www.robotshop.com/",
    "icons": {
       "128": "icons/128.png",
       "16": "icons/16.png",
       "32": "icons/32.png",
-      "48": "icons/48.png"
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
    },
    "manifest_version": 2,
-   "name": "Share on Twitter",
+   "name": "Search on RobotShop",
    "permissions": [ "contextMenus", "activeTab" ],
-   "version": "1.5"
+   "version": "1.0"
 }
